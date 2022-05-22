@@ -1,14 +1,18 @@
-public class BottlesOfBeer {
+public class BottlesOfBeer 
+{
 
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		// TODO Auto-generated method stub
 		
 		int numBottles = 99; // number of times to sing the song
 		String word = " bottles"; // since there are more than one bottle, use the plural
 		
-		while (numBottles > 0) {
+		while (numBottles > 0) 
+		{
 
-			if (numBottles == 1) {
+			if (numBottles == 1) 
+			{
 				word = " bottle"; // when only one bottle remains, use the singular
 			}
 
@@ -22,7 +26,17 @@ public class BottlesOfBeer {
 			numBottles = numBottles - 1; // decrement the number of bottles
 
 		} // end of while loop
-		
+		System.out.println("I added notes to file!!");
 	} // end of main method
-
-} // end of BottlesOfBeer class
+	
+}// end of BottlesOfBeer class
+/*
+ * videos used to setup repo w/eclipse
+ *
+ * https://www.youtube.com/watch?v=HuhJ22oHyfc
+ * 
+ * https://www.youtube.com/watch?v=rzB0s_76dBg
+ * 
+ * 
+ * 
+ */
